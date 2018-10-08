@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!--header met jumbotron in en button om naar beneden te scrollen-->
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Films die je moet gezien hebben</h1>
@@ -33,92 +34,154 @@
                 <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_1"
+                        <h5 class="card-title">Lord of the Rings: Return of the King</h5>
+                        <p class="card-text">2003 // Peter Jackson</p>
+
+                        <!--mobile button, hij is constant verborgen behalve voor small screens-->
+                        <button class="btn btn-secondary sm-visible hidden" type="button" data-toggle="collapse"
+                            data-target="#desc_1-sm" aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <!--mobile collapse, de beschrijving is constant verborgen behalve voor small screens-->
+                        <div class="collapse sm-visible hidden" id="desc_1-sm">
+                            <div class="card card-body">
+                                <p class="beschrijving">
+                                        The Return of the King is het derde en laatste deel van de filmtrilogie 'The Lord of the Rings'. Deze trilogie werd gebaseerd op het gelijknamig boek geschreven door J.R.R. Tolkien. De film toont hoe de hobbits Frodo en Sam hun eindbestemming, Mordor, bereiken om hun opdracht te voltooien en 'de ring' te vernietigen. Natuurlijk laat Gollum dit niet zomaar gebeuren. Ondertussen leidt Aragorn ook een gigantisch leger tegen het verzamelde leger van Sauron aan de voet van Minas Tirith. Deze film toont wie de toekomst van Midden-aarde in handen zal nemen.
+                            </p>
+                            <ul>
+                                <li>Elijah Wood</li>
+                                <li>Ian Mckellen</li>
+                                <li>Viggo Mortensen</li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <!--link om te kopen-->
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                        <!--website button die ervoor zorgt dat de beschrijving collapst, hij is verborgen voor small screens-->
+                        <button class="btn btn-secondary sm-hidden" type="button" data-toggle="collapse" data-target="#desc_1"
                             aria-expanded="false" aria-controls="collapseExample">
                             Lees meer
                         </button>
-                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
                     </div>
                 </div>
+
             </div>
             <div class="col col-md-4 col-sm-12 col-12">
                 <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_2"
+                        <h5 class="card-title">Fight Club</h5>
+                        <p class="card-text">1999 // David Finchet</p>
+
+                        <button class="btn btn-secondary sm-visible hidden" type="button" data-toggle="collapse"
+                            data-target="#desc_2-sm" aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <div class="collapse sm-visible hidden" id="desc_2-sm">
+                            <div class="card card-body">
+                                <p class="beschrijving">
+                                        De film wordt verteld door de hoofdrolspeler zelf waarvan de naam nooit genoemd wordt. Je ziet het leven door zijn ogen waarbij hij zeer ontevreden is met zijn saaie job tot zijn leven plots helemaal op zijn kop staat. Hij ontmoet door al zijn miserie Marla waarmee hij een ingewikkelde relatie vormt en Tyler die hem een thuis geeft en waarmee hij de 'fight club' opricht. Hier komen mannen samen om recreationeel de stress van het leven uit te laten door te vechten. Maar na een tijdje neemt deze 'ontspannings-club' een heel andere ingesteldheid aan en ontdekt de verteller enkele dingen die hem liever ongekend waren gebleven. 
+                                </p>
+                                <ul>
+                                    <li>Brad Pitt</li>
+                                    <li>Edward Norton</li>
+                                    <li>Helena Bonham Carter</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                        <button class="btn btn-secondary sm-hidden" type="button" data-toggle="collapse" data-target="#desc_2"
                             aria-expanded="false" aria-controls="collapseExample">
                             Lees meer
                         </button>
-                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
                     </div>
                 </div>
+
             </div>
             <div class="col col-md-4 col-sm-12 col-12">
                 <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_3"
+                        <h5 class="card-title">Inception</h5>
+                        <p class="card-text">2010 // Christopher Nolan</p>
+
+                        <button class="btn btn-secondary sm-visible hidden" type="button" data-toggle="collapse"
+                            data-target="#desc_3-sm" aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <div class="collapse sm-visible hidden" id="desc_3-sm">
+                            <div class="card card-body">
+                                <p class="beschrijving">
+                                        De film is gebaseerd op het concept dat het mogelijk is om informatie te stelen van iemand door binnen te dringen in hun dromen. Dom en Arthur gebruiken dit concept om hun brood te verdienen en zijn meesters in hun vak, maar dan krijgen ze de opdracht voorgeschoteld om in plaats van ideeën te stelen, een idee te plaatsen in iemand zijn geest. Er wordt een team vol uniek talent verzameld omdat Dom en Arthur deze klus niet alleen kunnen klaren. Daarbij wordt dat klusje alleen maar moeilijker als Dom zijn privé-leven er nog in gemengd wordt.
+                                </p>
+                                <ul>
+                                    <li>Leonardo Dicaprio</li>
+                                    <li>Joseph Gordon-Levitt</li>
+                                    <li>Marion Cotillard</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                        <button class="btn btn-secondary sm-hidden" type="button" data-toggle="collapse" data-target="#desc_3"
                             aria-expanded="false" aria-controls="collapseExample">
                             Lees meer
                         </button>
-                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
                     </div>
                 </div>
+
             </div>
         </div>
 
-<!--row voor de beschrijvingen zelf-->
-        <div class="row">
+        <!--row voor de beschrijvingen zelf, hiernaar wordt verwezen in de button zelf-->
+        <div class="row sm-hidden">
             <div class="col col-md-12">
+                <!--accordionDesc ID om ervoor te zorgen dat de beschrijving die open staan verdwijnen als er op een ander wordt geklikt-->
                 <div class="desc" id="accordionDesc">
                     <div class="collapse" id="desc_1" data-parent="#accordionDesc">
                         <div class="card card-body">
-                            The Return of the King is het derde en laatste deel van de filmtrilogie 'The Lord of the
-                            Rings'. Deze trilogie werd gebaseerd op het gelijknamig boek geschreven door J.R.R.
-                            Tolkien. De film toont hoe de hobbits Frodo en Sam hun eindbestemming, Mordor, bereiken om
-                            hun opdracht te voltooien en 'de ring' te vernietigen. Natuurlijk laat Gollum dit niet
-                            zomaar gebeuren. Ondertussen leidt Aragorn ook een gigantisch leger tegen het verzamelde
-                            leger van Sauron aan de voet van Minas Tirith. Deze film toont wie de toekomst van
-                            Midden-aarde in handen zal nemen.
+                                <p class="beschrijving">
+                                        The Return of the King is het derde en laatste deel van de filmtrilogie 'The Lord of the Rings'. Deze trilogie werd gebaseerd op het gelijknamig boek geschreven door J.R.R. Tolkien. De film toont hoe de hobbits Frodo en Sam hun eindbestemming, Mordor, bereiken om hun opdracht te voltooien en 'de ring' te vernietigen. Natuurlijk laat Gollum dit niet zomaar gebeuren. Ondertussen leidt Aragorn ook een gigantisch leger tegen het verzamelde leger van Sauron aan de voet van Minas Tirith. Deze film toont wie de toekomst van Midden-aarde in handen zal nemen.
+                            </p>
+                            <ul>
+                                <li>Elijah Wood</li>
+                                <li>Ian Mckellen</li>
+                                <li>Viggo Mortensen</li>
+                            </ul>
                         </div>
                     </div>
                     <div class="collapse" id="desc_2" data-parent="#accordionDesc">
                         <div class="card card-body">
-                            De film wordt verteld door de hoofdrolspeler zelf waarvan de naam nooit genoemd wordt. Je
-                            ziet het leven door zijn ogen waarbij hij zeer ontevreden is met zijn saaie job tot zijn
-                            leven plots helemaal op zijn kop staat. Hij ontmoet door al zijn miserie Marla waarmee hij
-                            een ingewikkelde relatie vormt en Tyler die hem een thuis geeft en waarmee hij de 'fight
-                            club' opricht. Hier komen mannen samen om recreationeel de stress van het leven uit te
-                            laten door te vechten. Maar na een tijdje neemt deze 'ontspannings-club' een heel andere
-                            ingesteldheid aan en ontdekt de verteller enkele dingen die hem liever ongekend waren
-                            gebleven.
+                                <p class="beschrijving">
+                                        De film wordt verteld door de hoofdrolspeler zelf waarvan de naam nooit genoemd wordt. Je ziet het leven door zijn ogen waarbij hij zeer ontevreden is met zijn saaie job tot zijn leven plots helemaal op zijn kop staat. Hij ontmoet door al zijn miserie Marla waarmee hij een ingewikkelde relatie vormt en Tyler die hem een thuis geeft en waarmee hij de 'fight club' opricht. Hier komen mannen samen om recreationeel de stress van het leven uit te laten door te vechten. Maar na een tijdje neemt deze 'ontspannings-club' een heel andere ingesteldheid aan en ontdekt de verteller enkele dingen die hem liever ongekend waren gebleven. 
+                                </p>
+                                <ul>
+                                    <li>Brad Pitt</li>
+                                    <li>Edward Norton</li>
+                                    <li>Helena Bonham Carter</li>
+                                </ul>
                         </div>
                     </div>
                     <div class="collapse" id="desc_3" data-parent="#accordionDesc">
                         <div class="card card-body">
-                            De film is gebaseerd op het concept dat het mogelijk is om informatie te stelen van iemand
-                            door binnen te dringen in hun dromen. Dom en Arthur gebruiken dit concept om hun brood te
-                            verdienen en zijn meesters in hun vak, maar dan krijgen ze de opdracht voorgeschoteld om in
-                            plaats van ideeën te stelen, een idee te plaatsen in iemand zijn geest. Er wordt een team
-                            vol uniek talent verzameld omdat Dom en Arthur deze klus niet alleen kunnen klaren. Daarbij
-                            wordt dat klusje alleen maar moeilijker als Dom zijn privé-leven er nog in gemengd wordt.
+                                <p class="beschrijving">
+                                        De film is gebaseerd op het concept dat het mogelijk is om informatie te stelen van iemand door binnen te dringen in hun dromen. Dom en Arthur gebruiken dit concept om hun brood te verdienen en zijn meesters in hun vak, maar dan krijgen ze de opdracht voorgeschoteld om in plaats van ideeën te stelen, een idee te plaatsen in iemand zijn geest. Er wordt een team vol uniek talent verzameld omdat Dom en Arthur deze klus niet alleen kunnen klaren. Daarbij wordt dat klusje alleen maar moeilijker als Dom zijn privé-leven er nog in gemengd wordt.
+                                </p>
+                                <ul>
+                                    <li>Leonardo Dicaprio</li>
+                                    <li>Joseph Gordon-Levitt</li>
+                                    <li>Marion Cotillard</li>
+                                </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-<!--tweede rij cards+beschrijvingen met buffer ertussen-->
-<div class="buffer"></div>
+        <!--tweede rij cards+beschrijvingen met buffer ertussen-->
+        <div class="buffer"></div>
 
 
         <div class="row">
@@ -126,14 +189,29 @@
                 <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_4"
+                        <h5 class="card-title">Léon: The Professional</h5>
+                        <p class="card-text">1994 // Luc Besson</p>
+
+                        <button class="btn btn-secondary sm-visible hidden" type="button" data-toggle="collapse"
+                            data-target="#desc_4-sm" aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <div class="collapse sm-visible hidden" id="desc_4-sm">
+                            <div class="card card-body">
+                                <p class="beschrijving">Léon is een professionele huurmoordenaar en zelfs de beste in zijn vak. Hij volgt dan ook strikte routines bij alles wat hij doet om al zijn vijanden constant voor te zijn. Maar alles verandert wanneer zijn pad kruist met die van de 12-jarige Matilda. Haar familie werd vermoord door een drugsverslaafde agent en daarna zoekt ze een toevlucht bij Léon. Deze neemt haar onder zijn vleugels en er ontstaat een zeer bijzondere relatie terwijl ze langs alle kanten bestookt worden door geweld.</p>
+                            <ul>
+                                <li>Jean Reno</li>
+                                <li>Natalie Portman</li>
+                                <li>Gary Oldman</li>
+                            </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                        <button class="btn btn-secondary sm-hidden" type="button" data-toggle="collapse" data-target="#desc_4"
                             aria-expanded="false" aria-controls="collapseExample">
                             Lees meer
                         </button>
-                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
                     </div>
                 </div>
             </div>
@@ -141,14 +219,29 @@
                 <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_5"
+                        <h5 class="card-title">Call Me By Your Name</h5>
+                        <p class="card-text">2017 // Luca Guadagnino</p>
+
+                        <button class="btn btn-secondary sm-visible hidden" type="button" data-toggle="collapse"
+                            data-target="#desc_5-sm" aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <div class="collapse sm-visible hidden" id="desc_5-sm">
+                            <div class="card card-body">
+                                <p class="beschrijving">De film speelt zich af tijdens de zomer van 1983 in Noord-Italië. Elio is een 17-jarige die samen met zijn gezin de zomer doorbrengt in een villa. Zijn vader is een professor in de Klassieke Oudheid en heeft een doctoraat-student, Oliver, uitgenodigd te leren van hem tijdens de zomer. Doorheen de zomer ontstaat er tussen Elio en Oliver een zeer fragiele romantische relatie die opgebouwd is uit hun liefde voor taal, natuur, klassieke muziek en filosofie.</p>
+                                <ul>
+                                    <li>Timothée Chalamet</li>
+                                    <li>Armie Hammer</li>
+                                    <li>Michael Stuhlbarg</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                        <button class="btn btn-secondary sm-hidden" type="button" data-toggle="collapse" data-target="#desc_5"
                             aria-expanded="false" aria-controls="collapseExample">
                             Lees meer
                         </button>
-                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
                     </div>
                 </div>
             </div>
@@ -156,56 +249,79 @@
                 <div class="card">
                     <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_6"
+                        <h5 class="card-title">The Nightmare Before Christmas</h5>
+                        <p class="card-text">1993 // Henry Selick</p>
+
+                        <button class="btn btn-secondary sm-visible hidden" type="button" data-toggle="collapse"
+                            data-target="#desc_6-sm" aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <div class="collapse sm-visible hidden" id="desc_6-sm">
+                            <div class="card card-body">
+                                <p class="beschrijving">The Nightmare Before Christmas is een stop-motion geanimeerde musical gebaseerd op de fantasie van Tim Burton. Het verhaal gaat over Jack Skellington die verveeld is met ieder jaar dezelfde saaie activiteiten te doen tijdens Halloween. Op een dag ontdekt hij Christmas Town waar alles onmiddellijk vrolijker en minder grim is. Hij is zo enthousiast over deze nieuwe visie op het leven en deelt die met zijn vrienden thuis, maar niemand volgt hem in zijn redeneringen.</p>
+                                <ul>
+                                    <li>Chris Sarandon</li>
+                                    <li>Danny Elfman</li>
+                                    <li>Catherine O'Hara</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                        <button class="btn btn-secondary sm-hidden" type="button" data-toggle="collapse" data-target="#desc_6"
                             aria-expanded="false" aria-controls="collapseExample">
                             Lees meer
                         </button>
-                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        
+
 
         <div class="row">
             <div class="col col-md-12">
                 <div class="desc" id="accordionDesc2">
                     <div class="collapse" id="desc_4" data-parent="#accordionDesc2">
                         <div class="card card-body">
-                            Léon is een professionele huurmoordenaar en zelfs de beste in zijn vak. Hij volgt dan ook
-                            strikte routines bij alles wat hij doet om al zijn vijanden constant voor te zijn. Maar
-                            alles verandert wanneer zijn pad kruist met die van de 12-jarige Matilda. Haar familie werd
-                            vermoord door een drugsverslaafde agent en daarna zoekt ze een toevlucht bij Léon. Deze
-                            neemt haar onder zijn vleugels en er ontstaat een zeer bijzondere relatie terwijl ze langs
-                            alle kanten bestookt worden door geweld.
+                                <p class="beschrijving">Léon is een professionele huurmoordenaar en zelfs de beste in zijn vak. Hij volgt dan ook strikte routines bij alles wat hij doet om al zijn vijanden constant voor te zijn. Maar alles verandert wanneer zijn pad kruist met die van de 12-jarige Matilda. Haar familie werd vermoord door een drugsverslaafde agent en daarna zoekt ze een toevlucht bij Léon. Deze neemt haar onder zijn vleugels en er ontstaat een zeer bijzondere relatie terwijl ze langs alle kanten bestookt worden door geweld.</p>
+                                <ul>
+                                    <li>Jean Reno</li>
+                                    <li>Natalie Portman</li>
+                                    <li>Gary Oldman</li>
+                                </ul>
                         </div>
                     </div>
                     <div class="collapse" id="desc_5" data-parent="#accordionDesc2">
                         <div class="card card-body">
-                            De film speelt zich af tijdens de zomer van 1983 in Noord-Italië. Elio is een 17-jarige die
-                            samen met zijn gezin de zomer doorbrengt in een villa. Zijn vader is een professor in de
-                            Klassieke Oudheid en heeft een doctoraat-student, Oliver, uitgenodigd te leren van hem
-                            tijdens de zomer. Doorheen de zomer ontstaat er tussen Elio en Oliver een zeer fragiele
-                            romantische relatie die opgebouwd is uit hun liefde voor taal, natuur, klassieke muziek en
-                            filosofie.
+                                <p class="beschrijving">De film speelt zich af tijdens de zomer van 1983 in Noord-Italië. Elio is een 17-jarige die samen met zijn gezin de zomer doorbrengt in een villa. Zijn vader is een professor in de Klassieke Oudheid en heeft een doctoraat-student, Oliver, uitgenodigd te leren van hem tijdens de zomer. Doorheen de zomer ontstaat er tussen Elio en Oliver een zeer fragiele romantische relatie die opgebouwd is uit hun liefde voor taal, natuur, klassieke muziek en filosofie.</p>
+                                <ul>
+                                    <li>Timothée Chalamet</li>
+                                    <li>Armie Hammer</li>
+                                    <li>Michael Stuhlbarg</li>
+                                </ul>
                         </div>
                     </div>
                     <div class="collapse" id="desc_6" data-parent="#accordionDesc2">
                         <div class="card card-body">
-                            The Nightmare Before Christmas is een stop-motion geanimeerde musical gebaseerd op de
-                            fantasie van Tim Burton. Het verhaal gaat over Jack Skellington die verveeld is met ieder
-                            jaar dezelfde saaie activiteiten te doen tijdens Halloween. Op een dag ontdekt hij
-                            Christmas Town waar alles onmiddellijk vrolijker en minder grim is. Hij is zo enthousiast
-                            over deze nieuwe visie op het leven en deelt die met zijn vrienden thuis, maar niemand
-                            volgt hem in zijn redeneringen.
+                                <p class="beschrijving">The Nightmare Before Christmas is een stop-motion geanimeerde musical gebaseerd op de fantasie van Tim Burton. Het verhaal gaat over Jack Skellington die verveeld is met ieder jaar dezelfde saaie activiteiten te doen tijdens Halloween. Op een dag ontdekt hij Christmas Town waar alles onmiddellijk vrolijker en minder grim is. Hij is zo enthousiast over deze nieuwe visie op het leven en deelt die met zijn vrienden thuis, maar niemand volgt hem in zijn redeneringen.</p>
+                                <ul>
+                                    <li>Chris Sarandon</li>
+                                    <li>Danny Elfman</li>
+                                    <li>Catherine O'Hara</li>
+                                </ul>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+
+
+        <div class="footer">
+            <p>Margot Serpentier</p>
+            <p>Logo Artevelde</p>
+
         </div>
     </div>
 
