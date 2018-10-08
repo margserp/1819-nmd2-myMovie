@@ -8,9 +8,11 @@
 }
 
 @media (max-width: 576px) {
+    /**onzichtbaar en geen ruimte innemen**/
     .sm-hidden {
         display: none;
     }
+    /**zichtbaar**/
     .sm-visible {
         display: block;
     }
