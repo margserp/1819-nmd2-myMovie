@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>It's all about movies</title>
+
+    <!-- bootstrap 4 css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--link rel="stylesheet" href="http://getbootstrap.com.vn/examples/equal-height-columns/equal-height-columns.css"-->
+    <!-- custom css -->
+    <link href="styles/custom.css " rel="stylesheet " type="text/css ">
+
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">Films die je moet gezien hebben</h1>
+            <p class="lead">Een avondje homecinema met vrienden of filmpje voor jou alleen onder je lakens, maar je
+                hebt geen flauw idee welke film? Zoek niet verder want hieronder staan enkele films die je moet gezien
+                hebben!</p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Scroll down</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <!--moet die col-12 blijven staan voor de xs?-->
+            <div class="col col-md-4 col-sm-12 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_1"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-4 col-sm-12 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_2"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-4 col-sm-12 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_3"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--row voor de beschrijvingen zelf-->
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="desc" id="accordionDesc">
+                    <div class="collapse" id="desc_1" data-parent="#accordionDesc">
+                        <div class="card card-body">
+                            The Return of the King is het derde en laatste deel van de filmtrilogie 'The Lord of the
+                            Rings'. Deze trilogie werd gebaseerd op het gelijknamig boek geschreven door J.R.R.
+                            Tolkien. De film toont hoe de hobbits Frodo en Sam hun eindbestemming, Mordor, bereiken om
+                            hun opdracht te voltooien en 'de ring' te vernietigen. Natuurlijk laat Gollum dit niet
+                            zomaar gebeuren. Ondertussen leidt Aragorn ook een gigantisch leger tegen het verzamelde
+                            leger van Sauron aan de voet van Minas Tirith. Deze film toont wie de toekomst van
+                            Midden-aarde in handen zal nemen.
+                        </div>
+                    </div>
+                    <div class="collapse" id="desc_2" data-parent="#accordionDesc">
+                        <div class="card card-body">
+                            De film wordt verteld door de hoofdrolspeler zelf waarvan de naam nooit genoemd wordt. Je
+                            ziet het leven door zijn ogen waarbij hij zeer ontevreden is met zijn saaie job tot zijn
+                            leven plots helemaal op zijn kop staat. Hij ontmoet door al zijn miserie Marla waarmee hij
+                            een ingewikkelde relatie vormt en Tyler die hem een thuis geeft en waarmee hij de 'fight
+                            club' opricht. Hier komen mannen samen om recreationeel de stress van het leven uit te
+                            laten door te vechten. Maar na een tijdje neemt deze 'ontspannings-club' een heel andere
+                            ingesteldheid aan en ontdekt de verteller enkele dingen die hem liever ongekend waren
+                            gebleven.
+                        </div>
+                    </div>
+                    <div class="collapse" id="desc_3" data-parent="#accordionDesc">
+                        <div class="card card-body">
+                            De film is gebaseerd op het concept dat het mogelijk is om informatie te stelen van iemand
+                            door binnen te dringen in hun dromen. Dom en Arthur gebruiken dit concept om hun brood te
+                            verdienen en zijn meesters in hun vak, maar dan krijgen ze de opdracht voorgeschoteld om in
+                            plaats van ideeën te stelen, een idee te plaatsen in iemand zijn geest. Er wordt een team
+                            vol uniek talent verzameld omdat Dom en Arthur deze klus niet alleen kunnen klaren. Daarbij
+                            wordt dat klusje alleen maar moeilijker als Dom zijn privé-leven er nog in gemengd wordt.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--tweede rij cards+beschrijvingen met buffer ertussen-->
+<div class="buffer"></div>
+
+
+        <div class="row">
+            <div class="col col-md-4 col-sm-12 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_4"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-4 col-sm-12 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_5"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-md-4 col-sm-12 col-12">
+                <div class="card">
+                    <img class="card-img-top" src="https://source.unsplash.com/random/286x180/" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#desc_6"
+                            aria-expanded="false" aria-controls="collapseExample">
+                            Lees meer
+                        </button>
+                        <a href="#" class="btn btn-primary">Koop nu €4,90</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="row">
+            <div class="col col-md-12">
+                <div class="desc" id="accordionDesc2">
+                    <div class="collapse" id="desc_4" data-parent="#accordionDesc2">
+                        <div class="card card-body">
+                            Léon is een professionele huurmoordenaar en zelfs de beste in zijn vak. Hij volgt dan ook
+                            strikte routines bij alles wat hij doet om al zijn vijanden constant voor te zijn. Maar
+                            alles verandert wanneer zijn pad kruist met die van de 12-jarige Matilda. Haar familie werd
+                            vermoord door een drugsverslaafde agent en daarna zoekt ze een toevlucht bij Léon. Deze
+                            neemt haar onder zijn vleugels en er ontstaat een zeer bijzondere relatie terwijl ze langs
+                            alle kanten bestookt worden door geweld.
+                        </div>
+                    </div>
+                    <div class="collapse" id="desc_5" data-parent="#accordionDesc2">
+                        <div class="card card-body">
+                            De film speelt zich af tijdens de zomer van 1983 in Noord-Italië. Elio is een 17-jarige die
+                            samen met zijn gezin de zomer doorbrengt in een villa. Zijn vader is een professor in de
+                            Klassieke Oudheid en heeft een doctoraat-student, Oliver, uitgenodigd te leren van hem
+                            tijdens de zomer. Doorheen de zomer ontstaat er tussen Elio en Oliver een zeer fragiele
+                            romantische relatie die opgebouwd is uit hun liefde voor taal, natuur, klassieke muziek en
+                            filosofie.
+                        </div>
+                    </div>
+                    <div class="collapse" id="desc_6" data-parent="#accordionDesc2">
+                        <div class="card card-body">
+                            The Nightmare Before Christmas is een stop-motion geanimeerde musical gebaseerd op de
+                            fantasie van Tim Burton. Het verhaal gaat over Jack Skellington die verveeld is met ieder
+                            jaar dezelfde saaie activiteiten te doen tijdens Halloween. Op een dag ontdekt hij
+                            Christmas Town waar alles onmiddellijk vrolijker en minder grim is. Hij is zo enthousiast
+                            over deze nieuwe visie op het leven en deelt die met zijn vrienden thuis, maar niemand
+                            volgt hem in zijn redeneringen.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
